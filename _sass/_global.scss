@@ -61,9 +61,9 @@ $bp-xl: 1200px;
 .plainLink {
   font-weight: bold;
   text-decoration: none;
-  color: #006C5D;
-  &:hover, &:active {
-    color: #009782;
+  color: #009782;
+  &:hover, &:active, &:visited {
+    color: #006C5D;
     text-decoration: underline;
   }
   .white {
