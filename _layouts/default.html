@@ -42,34 +42,36 @@
         </header>
       </div>
     </div-->
-    <div id="masthead-container">
-      <div id="masthead" class="row">
-        <div class="col">
-          <div class="row justify-content-between">
-            <div class="col-3 text-left">
-                <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-            </div>
-            <!-- begin utility header with login/register dynamic field-->
-            <div class="col text-right align-self-end mb-2">
-              <a href="https://www.one2one2.com/about" class="plainLink">About</a>
-            </div>
-          </div>  
+    <div id="container">
+      <div id="masthead-container">
+        <div id="masthead" class="row">
+          <div class="col">
+            <div class="row justify-content-between">
+              <div class="col-3 text-left">
+                  <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+              </div>
+              <!-- begin utility header with login/register dynamic field-->
+              <div class="col text-right align-self-end mb-2">
+                <a href="https://www.one2one2.com/about" class="plainLink">About</a>
+              </div>
+            </div>  
+          </div>
         </div>
       </div>
-    </div>
-
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+    
+      <div id="main" role="main" class="container">
+        {{ content }}
       </div>
-    </div>
 
-    {% include analytics.html %}
+      <div class="wrapper-footer">
+        <div class="container">
+          <footer class="footer">
+            {% include svg-icons.html %}
+          </footer>
+        </div>
+      </div>
+
+      {% include analytics.html %}
+    </div>
   </body>
 </html>
