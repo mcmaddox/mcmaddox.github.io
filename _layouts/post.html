@@ -3,11 +3,11 @@ layout: default
 ---
 
 <article class="post mt-4">
-  <h1 class="slate">{{ page.title }}</h1>
-  
   <div class="date">
     {{ page.date | date: "%B %e, %Y" }}
   </div>
+  
+  <h1 class="slate">{{ page.title }}</h1>
   
   <div class="entry">
     {{ content }}
