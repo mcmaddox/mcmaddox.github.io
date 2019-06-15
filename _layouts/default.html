@@ -25,7 +25,7 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead alert alert-danger">
+    <!--div class="wrapper-masthead alert alert-danger">
       <div class="container">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
@@ -40,6 +40,21 @@
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
+      </div>
+    </div-->
+    <div id="masthead-container">
+      <div id="masthead" class="row">
+        <div class="col">
+          <div class="row justify-content-between">
+            <div class="col-3 text-left">
+                <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+            </div>
+            <!-- begin utility header with login/register dynamic field-->
+            <div class="col text-right align-self-end mb-2">
+              <a href="https://www.one2one2.com/about" class="plainLink">About</a>
+            </div>
+          </div>  
+        </div>
       </div>
     </div>
 
