@@ -142,6 +142,21 @@ img {
     clear: both;
 }
 
+.plainLink {
+  font-weight: bold;
+  text-decoration: none;
+  color: #006C5D;
+  &:hover, &:active {
+    color: #009782;
+    text-decoration: underline;
+  }
+  .white {
+    color: #FFFFFF;
+    text-decoration: underline;
+  }
+}
+
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
