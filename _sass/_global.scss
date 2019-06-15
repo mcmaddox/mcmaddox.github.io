@@ -181,12 +181,9 @@ $bp-xl: 1200px;
 }
 
 #masthead-container {
-  position:fixed;
   width:100%;
   top:0px;
   left:0;
   background-color:#3CCBDA;
   border-top:5px solid #05F0D0;
-  overflow: hidden;
-  z-index:10;
 }
