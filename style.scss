@@ -72,18 +72,11 @@ p {
 }
 
 a {
-  /*color: $blue;
+  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
     color: $blue;
-  }*/
-  font-weight: bold;
-  text-decoration: none;
-  color: #006C5D;
-  &:hover, &:active {
-    color: #009782;
-    text-decoration: underline;
   }
 }
 
@@ -150,16 +143,6 @@ img {
 
 .clearfix:after {
     clear: both;
-}
-
-.plainLink {
-  font-weight: bold;
-  text-decoration: none;
-  color: #006C5D;
-  &:hover, &:active {
-    color: #009782;
-    text-decoration: underline;
-  }
 }
 
 
