@@ -19,8 +19,8 @@ _More Play_ means artists can:
 * Create relationships with local venues, studio engineers, music producers, show promoters, and event planners   
 * Connect with audiences and create new fans   
 
-![DJ image]({{ site.baseurl }}/images/festival-banner.jpeg)
+![DJ image]({{ site.baseurl }}/images/festival-banner.jpg){:.img-fluid}
 
-*one2one2* exists to give independent artists an easier way to make a living through their music. Whether you're just starting out or already have a thriving independent music career, *one2one2* is designed to help you extend your reach and create more income doing what you love. 
+**one2one2** exists to give independent artists an easier way to make a living through their music. Whether you're just starting out or already have a thriving independent music career, **one2one2** is designed to help you extend your reach and create more income doing what you love. 
 
-Want to learn more? Get more information [about **one2one2** here](https://one2one.com/about).
+Want to learn more? Get more information [about **one2one2** here](https://one2one.com/about){:.plainLink}.
