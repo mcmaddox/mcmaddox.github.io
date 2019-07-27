@@ -27,7 +27,6 @@
   <body class="backsplash">
     <div class="container container-fluid backsplash">
       <div id="masthead-container">
-        <img src="{{ site.baseurl }}/images/{{ page.banner }}" class="banner" width="100%"/>
         <div id="masthead" class="row">
           <div class="col">
             <div class="row justify-content-between">
@@ -46,6 +45,8 @@
         </div>
       </div>
     
+      <img src="{{ site.baseurl }}/images/{{ page.banner }}" class="banner" width="100%"/>
+      
       <div id="content-well" role="main" class="px-3 py-4">
         {{ content }}
         <footer class="footer">
