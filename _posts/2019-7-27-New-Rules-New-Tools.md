@@ -17,11 +17,11 @@ Our philosophy is echoed in our tagline:
 _Less Work_ means artists can: 
 * Find shows without the hassle of going door to door
 * Use demos posted to leading social media platforms to market themselves to potential sponsors
-* Negotiate with sponsors and keep track of all performances in the studio or on the go through their mobile phone
+* Negotiate with sponsors and easily keep track of upcoming or completed performances
 
 _More Play_ means artists can: 
 * Spend more time perfecting their craft through live performances
-* Create relationships with local venues, studio engineers, music producers, show promoters, and event planners   
+* Develop relationships with local venues, studio engineers, music producers, show promoters, and event planners   
 * Connect with audiences and create new fans   
 
 [//]: # (![DJ image][{{ site.baseurl }}/images/]{: style="width:100%; height=auto"})
@@ -30,4 +30,4 @@ _More Play_ means artists can:
 
 **one2one2** exists to give independent artists an easier way to make a living through their music. Whether you're just starting out or already have a thriving independent music career, **one2one2** is designed to help you extend your reach and create more income doing what you love. 
 
-Want to learn more? Get more information [about **one2one2** here](https://one2one.com/about){:.plainLink}.
+Want to learn more? [Get more information about **one2one2** here](https://one2one.com/about){:.plainLink}.
