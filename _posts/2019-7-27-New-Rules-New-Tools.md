@@ -1,12 +1,12 @@
 ---
 layout: post
 title: New Rules, New Tools
-banner: festival-banner.jpg
+banner: festival-dj-booth.jpg
 ---
 
 ## Here's the truth: The music business has changed.
 
-The internet, digital distribution, social media, and streaming have changed the dynamics of the industry. Now, the barriers to creating music and connecting with fans have been lowered. Artists have more control over their own distribution and marketing, and an independent career is just as possible (and in some cases more profitable) than a traditional label deal.
+The internet, digital distribution, social media, and streaming have changed the dynamics of the industry. Now, the barriers to creating music and connecting with fans have been lowered. Artists have more control over their own distribution and marketing, and an independent career is just as possible (and in some cases more profitable) as a traditional label deal.
 
 **one2one2** is a platform designed to help artists connect to people looking for musical talent. We believe artists should spend less time on marketing and promotion and more time on music and performing. We believe independent artists and working musicians need tools to help them simplify the process of finding, negotiating, and securing shows at venues&mdash;around the corner or around the country. 
 
