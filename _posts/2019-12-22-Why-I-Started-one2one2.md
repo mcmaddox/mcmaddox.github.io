@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why I Started one2one2
-banner: festival-dj-booth.jpg
+banner: 
 ---
 
 ## "There Has to Be an Easier Way"
