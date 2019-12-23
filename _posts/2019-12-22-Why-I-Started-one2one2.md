@@ -8,7 +8,7 @@ banner:
 
 Hi, I'm McNeal; founder and lead developer at [**one2one2**](https://one2one2.com){:.plainLink}{:target='_new'}. When I got married back in 2011, my wife and I wanted to keep things small and intimate. Instead of a big, elaborate wedding, we decided to have a destination wedding and host a small ceremony with our families, but throw a great reception party for the rest of our friends to celebrate with us when we came back to the US. For the wedding, we used a local coordinator since we couldn't fly back and forth to verify every little detail. For the party, we planned everything ourselves, and planned to hire one of my wife's co-workers at the time to DJ the party for us. 
 
-Almosst as soon as we sent out invites, email RSVPs started arriving in our inboxes to update us on who was coming. Friends from all over were excited to come visit and party with us in Los Angeles. All the details had been worked out and everything was set. Our reception was going to be just like we imagined: a bunch of our close friends partying together on a boat in the marina at sunset with a DJ we trusted handling the soundtrack for the whole thing.  
+Almost as soon as we sent out invites, email RSVPs started arriving in our inboxes to update us on who was coming. Friends from all over were excited to come visit and party with us in Los Angeles. All the details had been worked out and everything was set. Our reception was going to be just like we imagined: a bunch of our close friends partying together on a boat in the marina at sunset with a DJ we trusted handling the soundtrack for the whole thing.  
 
 Or so we thought&hellip;  
 
@@ -24,7 +24,7 @@ Our struggle to find a DJ inspired me to create the solution I needed. If I was 
 
 So I learned to code.
 
-After years of late nights and weekends sacrificed to create what I envisioned, I finally had what I had imagined: [**one2one2**](https://one2one2.com){:.plainLink}{:target='_new'}. 
+After years of late nights and weekends spent working the project, I finally had what I had imagined: [**one2one2**](https://one2one2.com){:.plainLink}{:target='_new'}. 
 
 What started as a hobby project to see if I could build an app to solve my little needs turned into something that could potentially solve an even bigger need for musicians everywhere. As I started researching the music industry, I found out that [most full-time musicians don't have a booking agent](https://youtu.be/sRt5wVFhHC0?t=2089){:.plainLink}{:target='_new'} even though [live shows are the biggest revenue stream for independent musicians](https://www.businessinsider.com/how-do-musicians-make-money-2018-10){:.plainLink}{:target='_new'}. Now any independent musician&mdash;whether they're just starting out or managing a successful career on their own&mdash;can get found, get gigs, and get paid from their laptop or mobile phone without giving away 15% of their fees.
 

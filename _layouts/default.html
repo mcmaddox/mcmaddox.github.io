@@ -46,11 +46,15 @@
     
       {% if page.banner %}<img src="{{ site.baseurl }}/images/{{ page.banner }}" class="banner" width="100%"/>{% endif %}
       
-      <div id="content-well" role="main" class="px-3 py-4">
-        {{ content }}
-        <footer class="footer">
-            {% include svg-icons.html %}
-        </footer>
+      <div id="content-well" role="main" class=" p-4">
+          <div class="row justify-content-center">
+              <div class="col-8">
+                {{ content }}
+                <footer class="footer">
+                    {% include svg-icons.html %}
+                </footer>
+              </div>
+          </div>
       </div>
 
       <!--div class="wrapper-footer">
