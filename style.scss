@@ -1,9 +1,43 @@
 ---
 ---
 
-//
-// IMPORTS
-//
+/* Start of fluid type declarations */
+
+@function strip-unit($value) {
+  @return $value / ($value * 0 + 1);
+}
+
+@mixin fluid-type($min-vw, $max-vw, $min-font-size, $max-font-size) {
+  $u1: unit($min-vw);
+  $u2: unit($max-vw);
+  $u3: unit($min-font-size);
+  $u4: unit($max-font-size);
+
+  @if $u1 == $u2 and $u1 == $u3 and $u1 == $u4 {
+    & {
+      font-size: $min-font-size;
+      @media screen and (min-width: $min-vw) {
+        font-size: calc(#{$min-font-size} + #{strip-unit($max-font-size - $min-font-size)} * ((100vw - #{$min-vw}) / #{strip-unit($max-vw - $min-vw)}));
+      }
+      @media screen and (min-width: $max-vw) {
+        font-size: $max-font-size;
+      }
+    }
+  }
+}
+
+$min_width: 320px;
+$max_width: 1440px;
+$min_font: 12px;
+$max_font: 18px;
+
+$mod_1: 1.8; // mobile
+$mod_2: 1.2; // desktop
+
+
+/////////////
+// IMPORTS //
+/////////////
 
 @import "reset";
 @import "variables";
@@ -15,12 +49,12 @@
 /**************/
 
 html {
-  font-size: 100%;
+  @include fluid-type($min_width, $max_width, $min_font, $max_font);
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $openSans;
+  font-family: $openSans;
   color: $darkGray;
 }
 
@@ -32,38 +66,33 @@ body {
 }*/
 
 h1, h2, h3, h4, h5, h6 {
-  //font-family: $helveticaNeue;
   font-family: $khula;
   color: $darkerGray;
   font-weight: 300;
-
   line-height: 1.7;
-  margin: 1em 0 15px;
-  padding: 0;
 
   @include mobile {
     line-height: 1.4;
   }
 }
 
+
 h1 {
-  font-size: 30px;
+  //// begin fluid type ////
+
+  font-weight: normal;
+  max-width: 24em;
+  font-size: $mod_1*$mod_1*$mod_1*$mod_1 *1rem; 
+  @include fluid-type($min_width, $max_width, $mod_1*$mod_1*$mod_1 *$min_font, $mod_2*$mod_2*$mod_2 *$min_font);
+
+  //// end fluid type ////
   a {
     font-family: inherit;
     color: inherit;
   }
 }
 
-h2 {
-  font-size: 24px;
-}
-
-h3 {
-  font-size: 20px;
-}
-
 h4 {
-  font-size: 18px;
   color: $gray;
 }
 
@@ -173,7 +202,6 @@ img .scaled {
 }
 
 .site-avatar {
-  //float: left;
   width: 70px;
   height: 70px;
   margin-right: 15px;
@@ -205,14 +233,15 @@ img .scaled {
   cursor: pointer;
   font-family: $firaSans;
   font-weight: 300;
-  font-size: 28px;
+
+  font-size: .9em;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
-  font-size: 16px;
+  font-size: .8em;
 
   @include mobile {
     margin: 3px 0;
@@ -223,13 +252,13 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $firaSans;
-  font-size: 18px;
+  font-size: .8em;
 
   @include mobile {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
+    font-size: .8em;
   }
 
   a {
@@ -266,7 +295,6 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
     font-style: italic;
   }
 
@@ -276,7 +304,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1em;
   }
 }
 
