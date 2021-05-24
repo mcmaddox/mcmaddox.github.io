@@ -22,7 +22,7 @@ footer-links:
   facebook: one2one2app
   flickr:
   github: 
-  instagram:
+  instagram: one2one2app
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
@@ -85,3 +85,5 @@ plugins:
   - jekyll-seo-tag
 #  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
 #  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+port: 8080
